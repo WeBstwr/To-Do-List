@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --first-color: #DFF2EB;
+  --second-color: #B9E5E8;
+  --third-color: #7AB2D3;
+  --fourth-color: #4A628A;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  background-color: var(--first-color);
+}
