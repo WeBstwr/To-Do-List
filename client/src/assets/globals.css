@@ -11,10 +11,11 @@ html {
 }
 
 :root {
-  --first-color: #DFF2EB;
-  --second-color: #B9E5E8;
-  --third-color: #7AB2D3;
-  --fourth-color: #4A628A;
+  --first-color: #dff2eb;
+  --second-color: #b9e5e8;
+  --third-color: #7ab2d3;
+  --fourth-color: #4a628a;
+  --font-color: #205c66;
 }
 
 body {
