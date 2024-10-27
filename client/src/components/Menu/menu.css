@@ -1,0 +1,36 @@
+.menu__container {
+  background-color: var(--second-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+  padding: 2rem 1rem;
+  margin: 0;
+}
+
+.header-nav__link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: var(--fourth-color);
+}
+
+.header-nav__link:hover {
+  cursor: pointer;
+}
+
+.header-nav__link.active {
+  color: var(--font-color1);
+  background-color: var(--first-color);
+  padding: 2rem 1rem;
+  font-weight: 700;
+}
