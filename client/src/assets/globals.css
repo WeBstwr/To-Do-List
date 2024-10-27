@@ -10,12 +10,23 @@ html {
   font-size: 62.5%;
 }
 
-:root {
+/* :root {
   --first-color: #dff2eb;
   --second-color: #b9e5e8;
   --third-color: #7ab2d3;
   --fourth-color: #4a628a;
   --font-color: #205c66;
+} */
+
+:root {
+  --first-color: #b9e5e8;
+  --second-color: #2e4a4e;
+  --third-color: #f3fafa;
+  --fourth-color: #ffffff;
+  --font-color1: #333333;
+  --font-color2: #606060;
+  --btn-color1: #205c66;
+  --btn-color2: #f3fafa;
 }
 
 body {

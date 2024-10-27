@@ -1,0 +1,106 @@
+.main-task-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-task-container h2 {
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+
+.add-task {
+  border: none;
+  background-color: var(--btn-color1);
+  color: var(--fourth-color);
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font: inherit;
+  font-size: 2rem;
+  text-wrap: wrap;
+}
+
+.add-task:hover {
+  background-color: var(--btn-color2);
+  color: var(--btn-color1);
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.task-container {
+  background-color: var(--third-color);
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 19px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 19px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px 3px rgba(0, 0, 0, 0.75);
+}
+
+.task-container h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--font-color1);
+}
+
+.task-container p {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: var(--font-color2);
+  font-weight: 600;
+}
+
+.due-date {
+  border: none;
+  width: 20rem;
+  background-color: var(--btn-color1);
+  color: var(--fourth-color);
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.decision {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.decision button {
+  border: none;
+  background-color: var(--btn-color2);
+  color: var(--btn-color1);
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.decision button:hover {
+  background-color: var(--btn-color1);
+  color: var(--btn-color2);
+  cursor: pointer;
+}
+
+.decision .delete-btn {
+  color: red;
+}
+
+.decision .delete-btn:hover {
+  background-color: red;
+  color: #fff;
+}
